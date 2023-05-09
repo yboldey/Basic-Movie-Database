@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/553ef4e0a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles-2.css">
+    <title>My Movie Database</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container logo-container">
+                <img class="logo-img" src="./assets/movie_reel.svg" alt="">
+                <p>Boldi's Humble <span>Movie</span> database<span>.</span></p>
+            </div>
+        </div>
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Let's find you a movie</h3>
+                <input type="text" class="form-control" placeholder="Start typing any title" id="movie-search-box"
+                    onkeyup="findMovies()">
+                <div class="search-list" id="search-list">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./app-2.js"></script>
+</body>
+
+</html>
